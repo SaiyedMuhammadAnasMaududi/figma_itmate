@@ -19,3 +19,24 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+no-dots{
+  list-style: none;}
+  /* Grid Container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 4 equal-width columns */
+  grid-template-rows: repeat( 2, 1fr); /* 2 rows: first 100px, second 200px */
+  
+}
+.grid-span{grid-column: span 2;}
+.button-border{
+  border-radius: 5px;
+}
+
+.grid-projects-container{
+display: grid;
+grid-template-columns:repeat(3,1fr) ;
+
+
+}
